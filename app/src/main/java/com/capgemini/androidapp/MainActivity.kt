@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,TimePickerDialog.
     //lateinit var registerButton : Button
     //lateinit var msgText:TextView
     val TAG = "MainActivity"
+    val msg = "hello"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.constraint_layout)
